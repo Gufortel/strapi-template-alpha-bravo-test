@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_content_richtext",
+    "info": {
+      "name": "Text",
+      "icon": "allergies"
+    },
+    "options": {},
+    "attributes": {
+      "anchor": {
+        "type" : "string"
+      },
+      "text": {
+        "type": "richtext",
+        "required": true,
+        "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          }
+      }
+    }
+  }
